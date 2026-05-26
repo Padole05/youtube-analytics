@@ -51,13 +51,6 @@ pip install requests pandas matplotlib textblob openpyxl
 set YOUTUBE_API_KEY=your_key_here
 ```
 
-**Mac/Linux:**
-```bash
-export YOUTUBE_API_KEY=your_key_here
-```
-
-> ⚠️ Never paste your API key directly into the source code — it will be exposed if you push to GitHub.
-
 ### 4. Run the pipeline
 ```bash
 python a4_pipeline.py
@@ -111,6 +104,6 @@ python a4_pipeline.py
 To analyse a different YouTube channel, update these two constants at the top of `a4_pipeline.py`:
 
 ```python
-CHANNEL_ID = "UCYO_jab_esuFRV4b17AJtAw"  # Replace with any channel ID
-N = 50                                      # Number of videos to fetch (max 50 per request)
+CHANNEL_ID = "any channel ID"  
+N = Number of videos to fetch (max 50 per request)
 ```
