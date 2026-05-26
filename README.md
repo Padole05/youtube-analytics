@@ -107,3 +107,13 @@ To analyse a different YouTube channel, update these two constants at the top of
 CHANNEL_ID = "any channel ID"  
 N = Number of videos to fetch (max 50 per request)
 ```
+
+## Charts & Analytics
+
+![Like Ratio Chart](chart_like_ratio.png)
+
+![Sentiment Chart](chart_sentiment.png)
+
+![Top 10 Views Chart](chart_top10_views.png)
+
+![Views Over Time Chart](chart_views_over_time.png)
